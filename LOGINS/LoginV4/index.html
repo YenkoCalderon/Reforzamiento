@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de inicio de sesión y registro </title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="form-wrapper sign-in">
+      <form action="">
+        <h2>Acceso</h2>
+        <div class="input-group">
+          <input type="text" required>
+          <label for="">Nombre de usuario</label>
+        </div>
+        <div class="input-group">
+          <input type="password" required>
+          <label for="">Contraseña</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> Guardar Datos</label>
+        </div>
+        <button type="submit">Acceso</button>
+        <div class="signUp-link">
+          <p>¿No tienes una cuenta? <a href="#" class="signUpBtn-link">Sign Up</a></p>
+        </div>
+      </form>
+    </div>
+    <div class="form-wrapper sign-up">
+      <form action="">
+        <h2>Crear Cuenta</h2>
+        <div class="input-group">
+          <input type="text" required>
+          <label for="">Nombre de usuario</label>
+        </div>
+        <div class="input-group">
+          <input type="email" required>
+          <label for="">Correo</label>
+        </div>
+        <div class="input-group">
+          <input type="password" required>
+          <label for="">Contraseña</label>
+        </div>
+        <div class="remember">
+          <label><input type="checkbox"> Acepto los términos y condiciones</label>
+        </div>
+        <button type="submit">Sign Up</button>
+        <div class="signUp-link">
+          <p>¿Ya tienes una cuenta? <a href="#" class="signInBtn-link">Sign In</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
